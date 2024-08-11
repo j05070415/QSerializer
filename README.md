@@ -12,6 +12,7 @@ struct UserData
 
     QPACK_M(UserData, name, value);
 };
+
 QString v0("1234");
 QVector<int> vec0{1,2,3};
 QMap<QString, int> map0{{"key0",11},{"key1",22}};
